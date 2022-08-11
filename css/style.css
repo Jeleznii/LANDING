@@ -1,0 +1,131 @@
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1046px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+/* header */
+
+/* .header{
+    position: absolute;
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: 50;
+} */
+
+.header-container{
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+}
+
+@media(max-width: 479px){
+    .header-container{
+        min-height: 85px;
+    }
+}
+
+.header-menu{
+    margin: 0 0 0 133px;
+}
+
+@media(max-width: 992px){
+    .header-menu{
+        margin: 0 0 0 80px;
+    }
+}
+
+@media(max-width: 767px){
+    .header-menu{
+        margin: 0 0 0 50px;
+    }
+}
+
+@media(max-width: 479px){
+    .header-menu{
+        margin: 0 0 0 20px;
+    }
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    line-height: 32px;
+}
+
+.menu{
+    padding: 5px 0;
+}
+
+.menu-link{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    color: #737373;
+}
+
+@media(max-width: 479px){
+    .menu-link{
+        font-size: 18px;
+    }
+}
+
+.menu-item:not(:last-child){
+    margin: 0 21px 0 0;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
