@@ -827,4 +827,113 @@ body{
     color: #000;
 }
 
+/* get in touch */
+
+.getintouch{
+    padding: 80px 0 135px 0;
+}
+
+.getintouch-header{
+    margin: 0 0 80px 0;
+}
+
+.item-getintoch > *:not(:last-child){
+    margin: 0 0 15px 0;
+}
+
+.item-getintoch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    padding: 50px 15px;
+}
+
+.item-getintoch-active{
+    padding: 80px 15px;
+    color: #FFF;
+    background: #252B42;
+}
+
+.getintouch-items{
+    margin: 0 -15px;
+}
+
+@media(min-width: 992px){
+    .getintouch-items{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 992px){
+    .getintouch-header{
+        margin: 0 0 50px 0;
+    }
+
+    .getintouch{
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 767px){
+    .getintouch-header{
+        margin: 0 0 20px 0;
+    }
+}
+
+.getintouch-item{
+    flex: 0 1 33.33%;
+}
+
+.item-getintouch-emails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+}
+
+.getintouch-email{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    color: inherit;
+}
+
+.getintouch-email:hover{
+    text-decoration: underline;
+}
+
+
+.item-getintouch-lable{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.item-getintouch-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 44px;
+    text-align: center;
+    padding: 5px 20px;
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    color: #FF7B47;
+    transition: all 0.3s ease 0s;
+}
+
+.item-getintouch-button:hover{
+    background-color: #FF7B47;
+    color: #FFF;
+}
+
 /* footer */
