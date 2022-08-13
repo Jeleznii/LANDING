@@ -689,6 +689,10 @@ body{
 
 /* clients */
 
+.main-clients{
+    margin: 0 0 10px 0;
+}
+
 .clients{
     padding: 50px 0;
 }
@@ -715,6 +719,112 @@ body{
 
 .clients-item img{
     max-width: 100%;
+}
+
+/* subscribe */
+
+.subscribe{
+    position: relative;
+    padding: 0 0 20px 0;
+}
+.subscribe::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+    left: 0;
+    background: #252B42;
+}
+
+.subscribe-title{
+    flex: 0 1 50%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #FFFFFF;
+}
+
+@media(max-width: 810px){
+    .subscribe-title{
+        margin: 0 0 20px 0;
+    }
+
+    .subscribe-body{
+        margin: 0 -15px;
+        padding: 20px 25px;
+    }
+}
+
+@media(min-width: 810px){
+    .subscribe-body{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscribe-title{
+        max-width: 266px;
+    }
+}
+
+.subscribe-form{
+    flex: 0 1 50%;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-button{
+    padding: 0 22px;
+    border-radius: 0px 5px 5px 0px;
+    min-height: 58px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    background: #FF7B47;
+    border: 1px solid #E6E6E6;
+    color: #FFF;
+}
+
+@media(max-width: 810px){
+    .subscribe-button{
+        padding: 0 15px;
+    }
+}
+
+.subscribe-body{
+    position: relative;
+    z-index: 2;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #17213C;
+    border-radius: 2px;
+}
+
+@media(min-width: 1070px){
+    .subscribe-body{
+        margin: 0 30px;
+    }
+}
+
+.subscribe-input{
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 58px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    color: #737373;
+}
+
+.subscribe-input:focus{
+    color: #000;
 }
 
 /* footer */
