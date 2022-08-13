@@ -996,3 +996,132 @@ body{
 }
 
 /* footer */
+.footer-top{
+    padding: 35px 0;
+    background-color:#17213C;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.footer-column{
+    padding: 15px 15px;
+    flex: 0 1 16.6667%;
+    min-width: 170px;
+}
+
+.footer-column:last-child{
+    flex: 0 1 33.334%;
+}
+
+@media(max-width: 992px){
+    .footer-column{
+        flex: 0 1 25%
+    }
+    .footer-column:last-child{
+        flex: 0 1 100%;
+    }
+}
+
+@media(max-width: 992px){
+    .footer-column{
+        flex: 0 1 50%
+    }
+}
+
+
+.footer-lable{
+    margin: 0 0 20px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFF;
+}
+
+.menu-footer-link{
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    color: #FFF;
+}
+
+.menu-footer-items:not(:last-child){
+    margin: 0 0 10px 0;
+}
+
+.menu-footer-link:hover{
+    text-decoration: underline;
+}
+
+.contacts-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-footer-item{
+    display: flex;
+    padding: 0 0 0 34px;
+    align-items: center;
+    min-height: 30px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+}
+
+.contacts-footer-item:hover{
+    text-decoration: underline;
+}
+
+.contacts-footer-item:not(:last-child){
+    margin: 0 0 12px 0;
+}
+
+.contacts-footer-item-phone{
+    background: url(../img/footer/1.svg) 0 0 no-repeat;
+}
+
+.contacts-footer-item-map{
+    background: url(../img/footer/2.svg) 0 0 no-repeat;
+}
+
+.contacts-footer-item-email{
+    background: url(../img/footer/3.svg) 0 0 no-repeat;
+}
+
+.foooter-bottom{
+    padding: 25px 0;
+}
+
+.footer-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 767px){
+    .footer-bottom-container{
+       flex-direction: column;
+    }
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social-item:not(:last-child){
+    margin: 0 20px 0 0;
+}
+
+.footer-copy{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    color: #737373;
+    padding: 5px 0;
+}
