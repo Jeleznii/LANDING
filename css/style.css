@@ -686,4 +686,35 @@ body{
     flex: 1 1 auto;
     padding: 0 0 0 20px;
 }
+
+/* clients */
+
+.clients{
+    padding: 50px 0;
+}
+
+@media(max-width: 760px){
+    .clients{
+        padding: 30px 0;;
+    }
+}
+
+.clients-items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clients-item{
+    padding: 8px 15px;
+    flex: 0 1 16.66%;
+    text-align: center;
+    min-width: 140px;
+}
+
+.clients-item img{
+    max-width: 100%;
+}
+
 /* footer */
