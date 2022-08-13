@@ -936,4 +936,63 @@ body{
     color: #FFF;
 }
 
+/* contact us */
+
+.cuntactus{
+    background-color: #FFF;
+    pad: 40px 0;
+}
+
+@media(min-width: 767px){
+    .contactus-body{
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contactus-content{
+        padding: 0 20px 0 0;
+    }
+}
+
+.contactus-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #252B42;
+}
+
+.contactus-title:not(:last-child){
+    margin: 0 0 10px 0;
+}
+
+.contactus-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142%;
+    color: #737373;
+}
+
+.contactus-button{
+    display: flex;
+    background: #FF7B47;
+    border-radius: 5px;
+    min-height: 58px;
+    padding: 5px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    transition: background-color 0.3s ease 0s;
+}
+
+.contactus-button:hover{
+    background-color: #a73204;
+}
+
+.contactus-content{
+    padding: 0 0 20px 0;
+}
+
 /* footer */
